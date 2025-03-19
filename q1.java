@@ -1,7 +1,5 @@
 //q1 in given arr=[18,12,9,14,77,50] find the number 14
 
-import java.util.Arrays;
-
 public class q1 {
 
     public static void main(String[] args) {

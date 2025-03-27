@@ -1,6 +1,6 @@
-public class h {
+public class h_peak_mountain {
     public static void main(String[] args) {
-        int[] arr = { 1, 2, 3, 4, 5, 7, 6, 4, 3, 2, 1 };
+        int[] arr = { 1, 2, 3, 4, 5, 7, 9, 6, 4, 3, 2, 1 };
         int indexof = peakIndexInMountainArray(arr);
         System.out.println("Peak element index: " + indexof);
     }

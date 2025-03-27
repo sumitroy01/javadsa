@@ -1,6 +1,6 @@
 //minimum number or lowest number in the arr
 
-public class q4 {
+public class q4_minNum {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3, 4, 5, 6, 7, -5, 8, 9, 10, 0, 12, -1 };
         int lowest_number = ls(arr);
@@ -19,8 +19,8 @@ public class q4 {
                 maxvalue = arr[index];
             }
         }
-        int lowest_number = maxvalue;
-        return lowest_number;
+
+        return maxvalue;
 
     }
 }

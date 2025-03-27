@@ -1,6 +1,6 @@
 //optimized solution for number of digits
 
-public class q7a {
+public class q7a_even_nums {
     public static void main(String[] args) {
         int[] arrs = { 11, 123, 1111, 1234, 1, 10 };
         int counter = 0;

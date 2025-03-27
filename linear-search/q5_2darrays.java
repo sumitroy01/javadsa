@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-public class q5 {
+public class q5_2darrays {
     public static void main(String[] args) {
         int[][] arr2d = { { 1, 2, 3, 4 }, { 5, 6, 7 }, { 8, 9 }, { 10 } };
         int target = 7;

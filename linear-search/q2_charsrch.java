@@ -1,6 +1,6 @@
 //q2: searching a character in a string string name = sumit roy and target =r;
 
-public class q2 {
+public class q2_charsrch {
     public static void main(String[] args) {
         String myname = "sumit roy";
         char target = 'r';

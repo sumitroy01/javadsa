@@ -1,7 +1,7 @@
 //max wealth question {{1,2,3},{1,1,1},{6,66,6},{9,99,9}}
 // each of the individual should be added {1+2+3}=6;
 //with max total is maxwealth
-public class q8 {
+public class q8_maxwealth {
     public static void main(String[] args) {
         int[][] arr2d = { { 1, 2, 3 }, { 1, 1, 1 }, { 6, 66, 6 }, { 9, 99, 9 } };
         int sum = maxwealth(arr2d);

@@ -1,17 +1,16 @@
-//celeing of a number;_> smallest number>=target
-//
-public class c {
+//floor of a numbr floor is greatestnumber in list <=target
+public class d_floorr {
     public static void main(String[] args) {
-
-        int[] arr = { 2, 3, 5, 7, 9, 11, 15 };
-        int target = 1;
-        if (target > arr[arr.length - 1]) {
-            System.out.println("the number doesnt exists in the given array");
+        int[] arr = { 2, 4, 5, 7, 9, 11, 15, 17 };
+        int target = 3;
+        if (target < arr[0]) {
+            System.out.println("the floor of " + target + " is unaviable in this list");
         } else {
 
-            int indexof = bs(arr, target);
-            System.out.println(indexof + "is the index of " + arr[indexof] + " which is celing of " + target);
+            int indexofloor = bs(arr, target);
+            System.out.println(arr[indexofloor] + ": is the floor of your target " + '{' + target + '}');
         }
+
     }
 
     static int bs(int[] arr, int target) {
@@ -20,7 +19,6 @@ public class c {
 
         while (start <= end) {
             int mid = start + (end - start) / 2;
-
             if (arr[mid] == target) {
                 return mid;
 
@@ -29,9 +27,10 @@ public class c {
             } else {
                 start = mid + 1;
             }
-
         }
 
-        return start;
+        return end;
+
     }
+
 }

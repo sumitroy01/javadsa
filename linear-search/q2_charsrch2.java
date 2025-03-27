@@ -1,4 +1,4 @@
-public class q2a {
+public class q2_charsrch2 {
     public static void main(String[] args) {
         String myname = "sumit roy";
         char target = 'r';

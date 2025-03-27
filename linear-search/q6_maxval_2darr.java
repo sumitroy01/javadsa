@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-public class q6 {
+public class q6_maxval_2darr {
     public static void main(String[] args) {
         int[][] arr2d = { { 1, 2, 3 }, { 3, 4 }, { 4, 5, 6, 7 }, { 8, 9 } };
         int[] indexofmax = ls(arr2d);

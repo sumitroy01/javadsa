@@ -1,7 +1,7 @@
 //even digits eg: nums=[18,1429,111,98,555,100], here search for the even digits such as 18,1429,38 and return the count
 //solving using brute froce approach
 
-public class q7 {
+public class q7_even_noof_digits {
     public static void main(String[] args) {
         int count = 0;
         int[] arr = { 18, 1429, 111, 98, 555, 100 };

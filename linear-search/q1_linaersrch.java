@@ -1,6 +1,6 @@
 //q1 in given arr=[18,12,9,14,77,50] find the number 14
 
-public class q1 {
+public class q1_linaersrch {
 
     public static void main(String[] args) {
         int[] nums = { 23, 45, 14, 16, 7, 15 };

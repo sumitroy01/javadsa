@@ -1,6 +1,6 @@
 //smallest character ;a character larger than target and wrap around too;
 
-public class e {
+public class e_samllestchar_amazon {
     public static void main(String[] args) {
         char[] chars = { 'c', 'd', 'e', 'g', 'z' };
         char target = 'z';

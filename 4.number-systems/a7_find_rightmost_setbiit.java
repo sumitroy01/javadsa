@@ -3,12 +3,10 @@
 // the 1 in the right hand side
 
 
-public class a6_find_rightmost_setbiit {
+public class a7_find_rightmost_setbiit {
     public static void main(String[] args) {
         
     }
-    static int position_of_rightmost(int n){
-        
-    }
+    
 
 }

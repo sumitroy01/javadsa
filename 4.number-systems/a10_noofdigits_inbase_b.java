@@ -1,6 +1,6 @@
-public class a8_noofdigits_inbase_b {
+public class a10_noofdigits_inbase_b {
     public static void main(String[] args) {
-        int num=2100;
+        int num=6;
       int b= count_digits(num);
         System.out.println(b);
       

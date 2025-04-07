@@ -1,6 +1,6 @@
 public class a3_squareroot {
     public static void main(String[] args) {
-        int n = 40;
+        int n = 10;
         int precision = 3;
         double result = sqrt(n, precision);
         System.out.println("Square root of " + n + " with precision " + precision + " is: " + result);

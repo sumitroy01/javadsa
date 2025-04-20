@@ -1,0 +1,7 @@
+32_
+subsequences
+arraylist of subsequences
+ascii value of a charecter
+subsequences with ascii value
+itertions to print subsequences
+subsequences with duplicate elements

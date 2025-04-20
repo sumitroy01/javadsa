@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "a1_remove_a_char",
+            "request": "launch",
+            "mainClass": "a1_remove_a_char",
+            "projectName": "9.recursions-strings_80d8c35d"
+        },
+        {
+            "type": "java",
+            "name": "a2_skipwords_",
+            "request": "launch",
+            "mainClass": "a2_skipwords_",
+            "projectName": "9.recursions-strings_80d8c35d"
+        },
+        {
+            "type": "java",
+            "name": "a3_subsets",
+            "request": "launch",
+            "mainClass": "a3_subsets",
+            "projectName": "9.recursions-strings_80d8c35d"
+        },
+        {
+            "type": "java",
+            "name": "z1",
+            "request": "launch",
+            "mainClass": "z1",
+            "projectName": "9.recursions-strings_80d8c35d"
+        }
+    ]
+}

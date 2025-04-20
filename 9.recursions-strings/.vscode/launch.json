@@ -5,6 +5,41 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "a8_subsequencesof_duplicates",
+            "request": "launch",
+            "mainClass": "a8_subsequencesof_duplicates",
+            "projectName": "9.recursions-strings_80d8c35d"
+        },
+        {
+            "type": "java",
+            "name": "a7_subsequences_iteration",
+            "request": "launch",
+            "mainClass": "a7_subsequences_iteration",
+            "projectName": "9.recursions-strings_80d8c35d"
+        },
+        {
+            "type": "java",
+            "name": "a6_subse_ascii",
+            "request": "launch",
+            "mainClass": "a6_subse_ascii",
+            "projectName": "9.recursions-strings_80d8c35d"
+        },
+        {
+            "type": "java",
+            "name": "a5_asccivalues",
+            "request": "launch",
+            "mainClass": "a5_asccivalues",
+            "projectName": "9.recursions-strings_80d8c35d"
+        },
+        {
+            "type": "java",
+            "name": "a4_subsequencs_list",
+            "request": "launch",
+            "mainClass": "a4_subsequencs_list",
+            "projectName": "9.recursions-strings_80d8c35d"
+        },
+        {
             "name": "Attach to Chrome",
             "port": 9222,
             "request": "attach",

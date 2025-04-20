@@ -1,3 +1,4 @@
+//#32..
 public class a1_remove_a_char {
    
         public static void main(String[] args) {

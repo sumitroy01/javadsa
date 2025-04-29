@@ -13,6 +13,7 @@ public class q5_2darrays {
 
     static int[] ls(int[][] arr, int target) {
         if (arr.length == 0) {
+            
             return new int[] { -1, -1 };
         }
         for (int row = 0; row < arr.length; row++) {

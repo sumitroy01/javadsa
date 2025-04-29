@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "circularlink",
+            "request": "launch",
+            "mainClass": "circularlink",
+            "projectName": "12.linked-lists_a7316cc"
+        },
+        {
+            "type": "java",
+            "name": "CircularLL",
+            "request": "launch",
+            "mainClass": "CircularLL",
+            "projectName": "12.linked-lists_a7316cc"
+        },
+        {
+            "type": "java",
+            "name": "DLL",
+            "request": "launch",
+            "mainClass": "DLL",
+            "projectName": "12.linked-lists_a7316cc"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ll",
+            "request": "launch",
+            "mainClass": "ll",
+            "projectName": "12.linked-lists_a7316cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "single_linked_list.Main",
+            "projectName": "12.linked-lists_a7316cc"
+        }
+    ]
+}

@@ -2,6 +2,7 @@ public class a3_subsets {
     public static void main(String[] args) {
         String myword="abc";
         gensubsets(" ",myword);
+        
 
     }
 

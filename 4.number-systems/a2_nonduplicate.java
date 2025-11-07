@@ -4,7 +4,7 @@
 
 public class a2_nonduplicate {
     public static void main(String[] args) {
-        int[] arr={11,22,11,22,3,4,555,3,4};
+        int[] arr={11,22,11,22,3,4,555,99,3,4,99};
         findsol(arr);
                
     }

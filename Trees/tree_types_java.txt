@@ -1,0 +1,165 @@
+
+Types of Trees in Java
+=======================
+
+1. Binary Tree
+--------------
+Diagram:
+          (1)
+         /   \
+       (2)   (3)
+      /   \
+    (4)   (5)
+
+- Each node has at most 2 children.
+- No specific order of nodes.
+
+Time Complexity:
+- Insertion/Search: O(n)
+- Space: O(n)
+
+2. Binary Search Tree (BST)
+----------------------------
+Diagram:
+          (8)
+         /   \
+       (3)   (10)
+      /   \     \
+    (1)   (6)   (14)
+
+- Left < Root < Right
+- Used for efficient searching and insertion.
+
+Time Complexity:
+- Best/Average: O(log n)
+- Worst (unbalanced): O(n)
+- Space: O(n)
+
+3. AVL Tree (Self-balancing BST)
+--------------------------------
+Diagram:
+          (30)
+         /    \
+      (20)   (40)
+      /
+    (10)
+
+- Balanced BST: difference of heights of left and right subtrees is at most 1.
+- Rotations are used to balance the tree.
+
+Time Complexity:
+- Insertion/Deletion/Search: O(log n)
+- Space: O(n)
+
+4. Red-Black Tree
+-----------------
+Diagram: (Colors not shown)
+          (10)
+         /    \
+       (5)    (20)
+              /   \
+           (15)  (25)
+
+- Balanced binary tree with extra color property (Red or Black).
+- Used in Java's TreeMap and TreeSet.
+
+Time Complexity:
+- Insertion/Deletion/Search: O(log n)
+- Space: O(n)
+
+5. Heap (Min or Max)
+---------------------
+Min-Heap Diagram:
+          (1)
+         /   \
+       (3)   (5)
+      /   \
+    (4)   (8)
+
+- Complete binary tree.
+- Min-heap: Parent ≤ Children
+- Max-heap: Parent ≥ Children
+
+Time Complexity:
+- Insertion: O(log n)
+- Get Min/Max: O(1)
+- Space: O(n)
+
+6. Trie (Prefix Tree)
+----------------------
+Diagram:
+           (*)
+          / | \
+         a  b  c
+        /      \
+       t        a
+      /          \
+     e            t
+
+- Stores strings character by character.
+- Used for dictionary, autocomplete.
+
+Time Complexity:
+- Insertion/Search: O(L) where L = length of string
+- Space: O(n * L)
+
+7. N-ary Tree
+--------------
+Diagram:
+           (1)
+         / |  \
+       (2)(3)(4)
+       /       \
+     (5)       (6)
+
+- Each node can have up to N children.
+- General-purpose tree structure.
+
+Time Complexity:
+- Traversals: O(n)
+- Space: O(n)
+
+Conclusion:
+-----------
+- Choose the tree based on your needs:
+  - Use BST/AVL/Red-Black for fast lookups.
+  - Use Trie for string operations.
+  - Use Heap for priority queues.
+  - Use N-ary for generic hierarchical data.
+
+
+
+Binary Tree Properties
+=======================
+
+1. Maximum Nodes at Level i:
+----------------------------
+For a binary tree, the maximum number of nodes at level i (with root at level 0) is:
+
+    Nodes at level i = 2^i
+
+
+2. Maximum Total Nodes in a Tree of Height h (Perfect Binary Tree):
+-------------------------------------------------------------------
+For a perfect binary tree, where all internal nodes have two children and all leaves are at the same level:
+
+    Total nodes = 2^(h + 1) - 1
+
+Where:
+    h = height (number of edges from root to the deepest leaf)
+
+
+3. Minimum Height for n Nodes (in a Perfect Binary Tree):
+----------------------------------------------------------
+    Height = log2(n + 1) - 1
+
+Where:
+    n = total number of nodes
+
+
+4. Number of Leaf Nodes in a Perfect Binary Tree:
+-------------------------------------------------
+    Leaf nodes = 2^h
+
+Where:
+    h = height of the tree

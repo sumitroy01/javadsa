@@ -7,6 +7,11 @@ public class a2_linearsrch {
 
     }
 
+
+
+
+
+    
     static int recursrch(int[] arr,int tar,int index){
         if (index>arr.length-1) {
             return -1;

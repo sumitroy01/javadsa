@@ -10,6 +10,12 @@ public class a1_sortedArray {
 
     }
 
+
+
+
+
+
+    
     static boolean recursorted(int[] arr,int index){
 
         if (index ==arr.length-1) {

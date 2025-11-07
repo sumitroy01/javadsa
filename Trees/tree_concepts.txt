@@ -1,0 +1,48 @@
+
+Tree Concepts Explained
+=======================
+
+Example Tree:
+-------------
+
+            (A)
+           /   \
+         (B)   (C)
+        /   \     \
+      (D)  (E)    (F)
+
+Explanation:
+------------
+
+1. Node:
+   - A node is a basic unit of a tree, such as A, B, C, etc.
+
+2. Edge:
+   - A connection between two nodes.
+   - In the diagram:
+     - A-B, A-C, B-D, B-E, C-F are edges.
+   - Total edges = Nodes - 1 = 6 - 1 = 5
+
+3. Degree:
+   - Number of children a node has.
+   - Degree(A) = 2 (B and C)
+   - Degree(B) = 2 (D and E)
+   - Degree(C) = 1 (F)
+   - Degree(D), Degree(E), Degree(F) = 0 (leaf nodes)
+
+4. Depth:
+   - Distance from the root node to a given node.
+   - Depth(A) = 0
+   - Depth(B), Depth(C) = 1
+   - Depth(D), Depth(E), Depth(F) = 2
+
+5. Height:
+   - Distance from a node to the deepest leaf.
+   - Height(D), Height(E), Height(F) = 0
+   - Height(B), Height(C) = 1
+   - Height(A) = 2
+
+Note:
+-----
+- The height of the tree is the height of the root node.
+- Leaf nodes have height 0.

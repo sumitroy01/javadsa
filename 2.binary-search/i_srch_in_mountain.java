@@ -13,6 +13,7 @@ public class i_srch_in_mountain {
         System.out.println(result1 + " : is the result of target =3");
     }
 
+    
     static int peakelement(int[] arr) {
         int start = 0;
         int end = arr.length - 1;

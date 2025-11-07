@@ -7,6 +7,7 @@ public class a3_linermulti {
         recur(arr, 6, 0);
       System.out.println(mylisa);
     }
+    
     static ArrayList<Integer> mylisa = new ArrayList<>();
     static void recur(int[] arr,int target,int index){
         if (index==arr.length) {

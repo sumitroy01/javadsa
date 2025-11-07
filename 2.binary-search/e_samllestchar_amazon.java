@@ -3,7 +3,7 @@
 public class e_samllestchar_amazon {
     public static void main(String[] args) {
         char[] chars = { 'c', 'd', 'e', 'g', 'z' };
-        char target = 'z';
+        char target = 'g';
         int indexof = bs(chars, target);
         System.out.println("smallest charecter of your char [" + target + "] is :" + chars[indexof]);
     }

@@ -5,6 +5,15 @@ public class h_peak_mountain {
         System.out.println("Peak element index: " + indexof);
     }
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
     static int peakIndexInMountainArray(int[] arr) {
         int start = 0;
         int end = arr.length - 1;

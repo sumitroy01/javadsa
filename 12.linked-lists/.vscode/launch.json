@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lll",
+            "request": "launch",
+            "mainClass": "lll",
+            "projectName": "12.linked-lists_a7316cc"
+        },
+        {
+            "type": "java",
             "name": "circularlink",
             "request": "launch",
             "mainClass": "circularlink",

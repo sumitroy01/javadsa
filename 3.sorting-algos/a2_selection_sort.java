@@ -3,14 +3,14 @@ public class a2_selection_sort {
         int[] arr = { 2, 5, 4, 1, 8, 0 };
         selectionSort(arr);
 
-        // Print sorted array
+        
         for (int num : arr) {
             System.out.print(num + " ");
         }
     }
 
     static void selectionSort(int[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) { // Run till second last element
+        for (int i = 0; i < arr.length - 1; i++) { 
             int last = arr.length - i - 1;
             int maxIndex = getMaxIndex(arr, 0, last);
             swap(arr, maxIndex, last);
@@ -23,9 +23,9 @@ public class a2_selection_sort {
         arr[second] = temp;
     }
 
-    static int getMaxIndex(int[] arr, int start, int end) { // Fixed function signature
+    static int getMaxIndex(int[] arr, int start, int end) { 
         int max = start;
-        for (int i = start; i <= end; i++) { // Find max index in the range
+        for (int i = start; i <= end; i++) {
             if (arr[max] < arr[i]) {
                 max = i;
             }

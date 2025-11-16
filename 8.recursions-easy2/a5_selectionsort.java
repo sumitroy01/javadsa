@@ -17,8 +17,6 @@ public class a5_selectionsort {
             max=findmax(arr, start, end);
             swap(arr, end, max);
             ss(arr, start, end-1, max);
-           }else{
-            return;
            }
 
     }

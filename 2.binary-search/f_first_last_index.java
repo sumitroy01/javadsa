@@ -3,7 +3,7 @@
 public class f_first_last_index {
 
     public static void main(String[] args) {
-        int[] arr = { 5, 7, 7, 7, 8, 8, 10 };
+        int[] arr = { 7, 7, 8, 8, 8, 8, 10 };
         int target = 7;
         int[] indexes = searchRange(arr, target);
 

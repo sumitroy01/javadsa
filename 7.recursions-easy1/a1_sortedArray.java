@@ -9,13 +9,7 @@ public class a1_sortedArray {
         System.out.println(recursorted(arr2, 0));
 
     }
-
-
-
-
-
-
-    
+ 
     static boolean recursorted(int[] arr,int index){
 
         if (index ==arr.length-1) {

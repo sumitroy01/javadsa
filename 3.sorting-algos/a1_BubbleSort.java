@@ -5,7 +5,7 @@ public class a1_BubbleSort {
 
         bubbleSort(arr);
 
-        // Print sorted array
+      
         for (int num : arr) {
             System.out.print(num + " ");
         }
@@ -16,8 +16,8 @@ public class a1_BubbleSort {
         for (int i = 0; i < arr.length - 1; i++) {
             swapped = false; // Reset swapped before inner loop
 
-            for (int j = 1; j < arr.length - i; j++) { // Start from 1 to avoid out-of-bounds
-                if (arr[j] < arr[j - 1]) { // Compare adjacent elements
+            for (int j = 1; j < arr.length - i; j++) { 
+                if (arr[j] < arr[j - 1]) { 
                     // Swap
                     int temp = arr[j];
                     arr[j] = arr[j - 1];

@@ -1,4 +1,4 @@
-//given a number findout if its power of 23 or not;
+//given a number findout if its power of 2 or not;
 // 10000 -- is power as only 1 one;
 // 10101-- not power of 2 if more than 1 ones; 
 public class a12_powerof2 {

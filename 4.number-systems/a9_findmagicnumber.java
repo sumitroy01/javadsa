@@ -6,16 +6,15 @@ public class a9_findmagicnumber {
 
     }
     static int magicnum(int num){
-        int ans=0;
-        int base=5;
-        while(num>0){
-        int lastindex=num&1;
-        ans+=lastindex*base;
-        num>>=1;
+       int sum=0;
+       int base=5;
+       while(num>0){
+        int lasbit=num&1;
+        sum+=lasbit*base;
         base*=5;
+       }
 
-
-        }
-        return ans;
+        return sum;
+        
     }
 }

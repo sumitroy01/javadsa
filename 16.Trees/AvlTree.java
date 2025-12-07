@@ -1,4 +1,4 @@
-public class Avl {
+public class AvlTree {
     private Node root;
 
     private class Node {
@@ -11,18 +11,18 @@ public class Avl {
     }
 
     public void populate(int val) {
-        root = insert(root, val);
+        root = populate(root, val);
     }
 
-    private Node insert(Node current, int value) {
+    private Node populate(Node current, int value) {
         if (current == null) {
             return new Node(value);
         }
 
         if (value < current.value) {
-            current.left = insert(current.left, value);
+            current.left = populate(current.left, value);
         } else if (value > current.value) {
-            current.right = insert(current.right, value);
+            current.right = populate(current.right, value);
         } else {
             return current; // duplicate values not allowed
         }
@@ -141,17 +141,13 @@ public class Avl {
     }
 
     public static void main(String[] args) {
-        Avl mytree = new Avl();
-        mytree.populate(10);
-        mytree.populate(12);
-        mytree.populate(8);
-        mytree.populate(6);
-        mytree.populate(14);
-        mytree.populate(9);
-        mytree.display();
-        System.out.println("Height: " + mytree.height());
-        mytree.delete(8);
-        System.out.println("After deletion:");
-        mytree.display();
+        AvlTree myt = new AvlTree();
+        myt.populate(20);
+       myt.populate(30);
+       myt.populate(50);
+       myt.populate(70);
+       myt.populate(90);
+       myt.populate(10);
+       myt.display();
     }
 }

@@ -18,18 +18,17 @@ public class A3_LevelOrderSuccessor {
        
             TreeNode current = queue.poll();
 
-            // Add children before checking for key to preserve order
             if (current.left != null) queue.offer(current.left);
             if (current.right != null) queue.offer(current.right);
 
-            // If this is the node we’re looking for
+            
             if (current.val == key) {
                 break;
             }
         }
 
-        // The next node in the queue is the level order successor
-        return queue.peek();  // or poll() if you want to consume it
+     
+        return queue.peek();  
     }
 
     public static void main(String[] args) {

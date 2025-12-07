@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class a11_binarytree {
+public class Binarytree {
 
     private static class Node {
         int val;
@@ -59,7 +59,7 @@ public class a11_binarytree {
     // main method to run
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        a11_binarytree tree = new a11_binarytree();
+        Binarytree tree = new Binarytree();
         tree.populate(scan);
         tree.display();
     }

@@ -10,25 +10,21 @@ class TreeNode {
 
 public class A2_InvertBinaryTree {
     
-    // Function to invert the binary tree
     public TreeNode invertTree(TreeNode root) {
         if (root == null) {
             return null;
         }
         
-        // Swap the left and right children
         TreeNode temp = root.left;
         root.left = root.right;
         root.right = temp;
         
-        // Recursively invert the left and right subtrees
         invertTree(root.left);
         invertTree(root.right);
         
         return root;
     }
     
-    // Function to print the tree (inorder traversal) for testing purposes
     public void inorder(TreeNode root) {
         if (root == null) {
             return;
@@ -39,11 +35,9 @@ public class A2_InvertBinaryTree {
         inorder(root.right);
     }
 
-    // Driver code to test
     public static void main(String[] args) {
         A2_InvertBinaryTree tree = new A2_InvertBinaryTree();
         
-        // Creating a sample tree
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
         root.right = new TreeNode(3);
